@@ -26,11 +26,12 @@ a{
 #nav-list{
     background-color: #1f1f1f;
     padding: 10px;
-    position: sticky;
     display: flex;
+    position: sticky;
     align-content: center;
     justify-content: end;
     z-index: -1;
+    border-bottom: 1px solid #00ffaa;
 }
 
 
