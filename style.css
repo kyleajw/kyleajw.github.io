@@ -31,7 +31,7 @@ a{
     align-content: center;
     justify-content: end;
     z-index: -1;
-    border-bottom: 1px solid #00ffaa;
+    border-bottom: 1px solid #ff0062;
 }
 
 
@@ -51,7 +51,7 @@ a{
 .name{
     font-size: 40px;
     font-weight: 300;
-    color: #00ffaa;
+    color: #ff0062;
 }
 
 .desc{
@@ -60,7 +60,7 @@ a{
     font-weight: 300;
     font-size: 25px;
     margin-left: 180px;
-    border-left: 2px solid #00ffaa;
+    border-left: 2px solid #ff0062;
     /* color: #00ffaa; */
     padding-left: 5px;
 }
@@ -109,7 +109,7 @@ a{
     display: block;
     /* text-align: center; */
     font-size: 17px;
-    color: #00ffaa;
+    color: #ff0062;
 }
 
 .project-description{
