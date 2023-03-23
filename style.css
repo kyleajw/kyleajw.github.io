@@ -168,3 +168,53 @@ button{
     height: 110px;
     
 }
+
+
+.nav-links{
+    display: none;
+}
+
+@media (min-width: 950px){
+    .nav-list, .hamburger-icon{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+    }
+
+    .projects{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .project-container{
+        margin: 10px;
+        width: 480px;
+
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+
+    .project-description{
+        height: 165px;
+        font-size: 22px;
+    }
+
+    .project-image img{
+        width: 450px;
+    }
+
+    .projects-header{
+        font-size: 30px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+    .desc{
+        font-size: 30px;
+    }
+}
