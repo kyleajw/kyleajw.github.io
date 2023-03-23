@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/kyleajw/kyleajw.github.io/issues"
   },
-  "homepage": "https://github.com/kyleajw/kyleajw.github.io/index.html",
-  "dependencies": {
-    "three": "^0.148.0"
-  }
+  "homepage": "https://github.com/kyleajw/kyleajw.github.io/index.html"
 }
