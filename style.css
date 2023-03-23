@@ -80,11 +80,11 @@ button{
 }
 
 .close-button{
-    transition: 100ms;
+    transition: 500ms;
 }
 
 .close-button:active{
-    transform: scale(1.1);
+    transform: rotate(90deg);
 }
 
 .intro{
