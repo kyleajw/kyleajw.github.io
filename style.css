@@ -61,9 +61,10 @@ button{
     width: 50%;
     height: 100vh;
     right: 0px;    
-    border-left: 5px solid #ff0062;
+    border-left: 2px solid #ff0062;
     transition: right 0.5s;
 }
+
 
 .hidden{
     right: -500px;
@@ -80,11 +81,11 @@ button{
 }
 
 .close-button{
-    transition: 500ms;
+    transition: 100ms;
 }
 
 .close-button:active{
-    transform: rotate(90deg);
+    transform: rotate(45deg);
 }
 
 .intro{
