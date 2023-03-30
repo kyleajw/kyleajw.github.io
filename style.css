@@ -51,6 +51,10 @@ button{
     font-size: 20px;
 }
 
+.nav-ul .nav-item a{
+    color: #141414;
+}
+
 .nav-list{
     position: fixed;
     padding: 10px;
