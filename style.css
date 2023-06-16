@@ -98,21 +98,36 @@ body{
 .project{
     width: 900px;
     height: 450px;
-    background-image: linear-gradient( #c267fe5e, #9af9d379);
+    /* background-image: linear-gradient( #c267fe5e, #9af9d379); */
     border-radius: 5px;
     /* border: 1px solid #fff; */
     margin: 20px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: 0.2s;
 }
 
-.project-name{
+.project:hover{
+    scale: 1.05;
+
+}
+
+.project-name, .project-role{
     position: absolute;
     bottom: 0;
     left: 0;
     font-size: 36px;
     padding: 10px;
-    color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+.project-name{
+    bottom: 30px;
+}
+
+.project-role{
+    font-size: 24px;
+    color: var(--secondary-color)
 }
 
 .project img{
