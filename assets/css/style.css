@@ -1,0 +1,99 @@
+:root {
+  --primary-bg-color: #f7f7f7;
+  --secondary-bg-color: #ffffff;
+  --tertiary-bg-color: #302c26;
+
+  --primary-text-color: #555555;
+  --secondary-text-color: #302c26;
+  --tertiary-text-color: #eeeeee;
+
+  --primary-border-color: #eeeeee;
+  --secondary-border-color: #555555;
+
+  --round-border-padding: 10px;
+  --round-border-radius: 50px;
+  --round-border-horizontal-padding: 30px;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.primary-bg-colour {
+  background-color: var(--primary-bg-color);
+}
+
+.secondary-bg-colour {
+  background-color: var(--secondary-bg-color);
+}
+
+.tertiary-bg-colour {
+  background-color: var(--tertiary-bg-color);
+}
+
+.primary-text-colour {
+  color: var(--primary-text-color);
+}
+
+.secondary-text-colour {
+  color: var(--secondary-text-color);
+}
+
+.tertiary-text-colour {
+  color: var(--tertiary-text-color);
+}
+
+.centre {
+  margin: auto;
+  width: 70%;
+}
+
+.round-container {
+  border: var(--primary-border-color) 1px solid;
+  border-radius: var(--round-border-radius);
+  padding: var(--round-border-padding) var(--round-border-horizontal-padding);
+}
+
+.secondary-border-colour {
+  border-color: var(--secondary-border-color);
+}
+
+#feature {
+  margin-top: 70px;
+  margin-bottom: 130px;
+}
+
+#feature-text {
+  font-size: 48px;
+  width: 805px;
+}
+
+#feature-text div {
+  margin-bottom: 50px;
+}
+
+#feature-btn-container {
+  margin-top: 140px;
+}
+
+#projects-header {
+  font-size: 40px;
+}
