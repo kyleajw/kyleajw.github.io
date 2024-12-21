@@ -18,6 +18,7 @@ export default function Home() {
 
       </div>
       <div className="mt-5">view all</div>
+      <div>links</div>
 
     </div>
   </>;
