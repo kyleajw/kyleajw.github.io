@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,5 +21,11 @@ body {
 }
 
 h2 {
-  font-size: 32px;
+  @apply text-3xl;
+  @apply bg-gradient-to-r;
+  @apply from-[#ff1b6b];
+  @apply to-[#3D5CFB];
+  @apply inline-block;
+  @apply text-transparent;
+  @apply bg-clip-text;
 }

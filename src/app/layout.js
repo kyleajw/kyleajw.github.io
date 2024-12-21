@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={"antialiased min-h-screen font-mono p-10"}
+        className={"antialiased min-h-screen p-8 pt-4 font-roboto-mono"}
       >
         <Navbar />
         {children}

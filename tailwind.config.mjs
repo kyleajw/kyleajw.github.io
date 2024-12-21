@@ -6,6 +6,9 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'roboto-mono': ['"Roboto Mono"', 'ui-monospace']
+    },
     extend: {
       colors: {
         background: "var(--background)",
