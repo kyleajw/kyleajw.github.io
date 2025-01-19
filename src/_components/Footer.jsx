@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="absolute bottom-5 right-5 flex flex-row space-x-3">
+    <div className="absolute right-10 pb-10 md:p-0 md:bottom-5 md:right-5 flex flex-row space-x-3">
       <a
         className="text-[#6d6d6d] hover:text-white duration-150"
         href="https://github.com/kyleajw"
@@ -11,7 +11,7 @@ export default function Footer() {
       <a
         className="text-[#6d6d6d] hover:text-white duration-150"
         href="https://x.com/kyle_ajw"
-        target="_blank"
+        target="blank"
       >
         x.com
       </a>
