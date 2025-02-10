@@ -12,7 +12,8 @@ export default function Home() {
     <div className="mt-4 mb-1">
       <h2>projects</h2>
       <div className="flex flex-col space-y-8 mt-8">
-        <Project name="kyleajw.github.io" description="personal website" link="https://github.com/kyleajw/kyleajw.github.io" stack={["nextjs", "html", "css", "js"]} />      </div>
+        <Project name="kyleajw.github.io" description="personal website" link="https://github.com/kyleajw/kyleajw.github.io" stack={["nextjs", "html", "css", "js"]} />
+        <Project name="type-tester" description="monkeytype-inspired typing game" link="https://kyleajw.github.io/type-tester/" stack={["html", "css", "js"]} />      </div>
       <Link href="/projects">
         <div className="hover:text-[#ff1b6b] duration-150 inline-block mt-3">view all</div>
       </Link>
