@@ -6,7 +6,7 @@ export default function Home() {
     <div className="">
       <h2 className="">kyle-ajw</h2>
       <div className="text-neutral-500 text-lg">united kingdom | student</div>
-      <div className="md:w-1/2 text-pretty md:text-lg mt-3">twenty-year-old computer science undergraduate. learning c++ (and some web tech), forced to use Java.</div>
+      <div className="md:w-1/2 text-pretty md:text-lg mt-3">twenty-year-old computer science undergraduate. learning c++ (and some web tech).</div>
     </div>
 
     <div className="mt-4 mb-1">
